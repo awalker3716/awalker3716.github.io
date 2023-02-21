@@ -1,0 +1,192 @@
+/*colors #F2F2F2 (white), #D9D9D9 (lightgray), #BFBFBF(gray), #9B9B9B, #777777*/
+/*  { 
+  border: 2px solid red;
+}*/
+* {
+  font-family: "Rockwell", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #795548;
+}
+
+body {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #BCAAA4;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.logo {
+  padding: 15px;
+}
+
+.title {
+  text-align: center;
+  margin: auto;
+  font-size: 2rem;
+
+}
+
+.title p {
+  font-size: 1.5rem;
+  margin-top: -20px;
+}
+
+.contact {
+  margin: auto;
+}
+
+.contact h2 {
+  margin-bottom: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #A1887F;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+
+
+.hero img {
+  width: 350px;
+  height: auto;
+  object-position: center;
+  object-fit: contain;
+
+}
+
+.hero figcaption {
+  font-size: 40px;
+  text-align: center;
+  padding: 25px;
+  letter-spacing: 1px;
+}
+
+.products h4 {
+  text-align: center;
+  margin-top: 0;
+
+  font-size: 1.3rem;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.product img {
+  width: 350px;
+  height: auto;
+}
+
+button {
+  background-color: #A1887F;
+  width: 100%;
+  padding: 10px;
+
+}
+
+button a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1rem;
+
+}
+
+.contact {
+  text-align: center;
+}
+
+.showroom img {
+  width: 350px;
+  height: auto;
+
+  margin: 0 auto;
+}
+
+.footer-bottom a {
+  display: block;
+}
+
+footer {
+  background-color: #BCAAA4;
+  ;
+  margin-top: 20px;
+}
+
+/* products css */
+h2 {
+  margin: 25px auto;
+  text-align: left;
+
+}
+
+.product-container {
+  background-color: #A1887F;
+  padding: 10px;
+  margin: 0 auto;
+
+}
+
+.product-container img {
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+.ba {
+  background-color: #BCAAA4;
+  padding: 20px;
+}
+
+/* about */
+.about img {
+  width: 450px;
+  height: auto;
+}
+
+.about p {
+  font-size: 1.5rem;
+}

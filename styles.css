@@ -1,0 +1,156 @@
+html {
+    background-color: #104558;
+    color: whitesmoke;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header,
+h1 {
+    margin-bottom: 0;
+}
+
+header,
+p {
+    margin: 0 auto;
+
+}
+ 
+nav li{
+    list-style:none;
+}
+nav ul {
+    
+ display:flex;
+    flex-direction: row;
+justify-content: space-between;}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    display:inline;
+  }
+.favicons-container
+{
+    display:inline;
+}
+.favicons {
+   
+    object-fit: cover;
+    margin-top: 0;
+    width: 32px;
+    height: 32px;
+}
+
+
+.card {
+    background-color: antiquewhite;
+    color: black;
+    width: 100%;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 15px;
+}
+
+h2 {
+    margin-left: 20px;
+
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+      box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+}
+.profile-pic:hover{
+      box-shadow: 0 8px 12px 0 rgba(34,60,80,.16)
+}
+
+
+.projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    row-gap: 25px;
+}
+
+.grid-item {
+    place-self: center;
+}
+
+.project-preview {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+figcaption{
+    text-align: center;
+}
+.contact-links {
+    margin-left: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-links a:hover {
+    color: whitesmoke;
+    background-color: #104558;
+    padding: 2px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#email {
+    margin: 10px;
+}
+
+#message {
+    display: block;
+}
+
+#button {
+    display: block;
+    margin: 10px auto;
+    background-color: #104558;
+    color: whitesmoke;
+    width: 80%;
+
+}
