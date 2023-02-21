@@ -5,6 +5,7 @@
 * {
   font-family: "Rockwell", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+
 }
 
 html {
@@ -12,36 +13,47 @@ html {
 }
 
 body {
-  max-width: 80%;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 50px;
+  max-width: 100%;
 }
 
 header {
   background-color: #BCAAA4;
-
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 h1 {
   text-align: center;
+
 }
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  font-size: 1.2rem;
+  
 }
 
 .logo {
   padding: 15px;
+  width: 29%;
+  height: auto;
+  max-width: 100%;
 }
+
 
 .title {
   text-align: center;
   margin: auto;
   font-size: 2rem;
-
+  width: 69%;
+  height: auto;
+  max-width: 100%;
 }
 
 .title p {
@@ -59,7 +71,9 @@ h1 {
 
 nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   padding: 10px 20px;
   background-color: #A1887F;
@@ -68,6 +82,7 @@ nav {
 
 nav ul {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -84,21 +99,25 @@ nav a {
   letter-spacing: 1px;
 }
 
-
-
-.hero img {
-  width: 350px;
-  height: auto;
-  object-position: center;
-  object-fit: contain;
-
+figure{
+  width:100%;
+  
 }
+figure img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  
+ 
+}
+figcaption {
+  font-weight: 800;
+  position: absolute;
+  bottom: 50px;
+  left:5px;
+  color:antiquewhite;
+  font-size:2rem;
 
-.hero figcaption {
-  font-size: 40px;
-  text-align: center;
-  padding: 25px;
-  letter-spacing: 1px;
 }
 
 .products h4 {
@@ -152,7 +171,7 @@ button a {
 
 footer {
   background-color: #BCAAA4;
-  ;
+  
   margin-top: 20px;
 }
 
