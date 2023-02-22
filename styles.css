@@ -154,3 +154,10 @@ a {
     width: 80%;
 
 }
+#submit-button{
+    background-color: #104558;
+    color: antiquewhite;
+    padding: 15px;
+    margin:5px auto;
+    border-radius: 5%;
+}
