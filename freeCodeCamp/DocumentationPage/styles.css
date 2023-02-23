@@ -1,0 +1,27 @@
+html{
+    font-size: 16px;
+}
+header{
+    text-align: center;
+    font-size:2rem;
+
+}
+#navbar{
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    z-index:1;
+}
+#nav-list{
+    list-style: none;
+
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    
+}

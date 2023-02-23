@@ -1,0 +1,106 @@
+html {
+    background-color: #FFF;
+    margin: 0;
+    font-family: 'Oswald', Courier, monospace;
+    font-size: 16px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    max-width: 100%;
+    
+}
+
+header {
+    background-color: lightblue;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin: auto;
+
+}
+
+ul {
+    margin: 30px auto;
+    padding: 0 auto;
+    text-align: center;
+}
+
+li {
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    color: #DBE9EE;
+
+}
+
+h1 {
+    color: #466995;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+p {
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+.welcome {
+    background-color: #DBE9EE;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 80px;
+    margin: 0 auto;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+form {
+    position: relative;
+    top: 75px;
+    margin: 10px auto;
+    width: 75%;
+    max-width: 750px;
+}
+
+fieldset {
+    margin: 15px auto;
+
+}
+
+.info-item {
+    margin: 5px auto;
+}
+.comments label{
+    display: block;
+    
+}
+.button{
+    width: 100%;
+    color: #DBE9EE;
+    background-color: #466995;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+footer{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    background-color: #DBE9EE;
+    width: 100%;
+    padding: 10px 0;
+    
+}

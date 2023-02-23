@@ -1,0 +1,78 @@
+/*hex codes: #9b59b6
+#8e44ad
+#7d3c98
+#6c3483
+#5b2c6f
+#4b2658
+#3a1f43
+#2e1c31
+#1f1318
+#0f0a03
+*/
+html {
+    box-sizing: border-box;
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    
+    height: 100vh;
+    width: 80vw;
+}
+
+header {
+    background-color: #4b2658;
+    text-align: center;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.intro {
+
+    line-height: 1.5;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+h3 {
+    text-align: center;
+}
+li{
+    line-height: 1.5
+
+}
+
+#tribute-info{
+    margin:20px auto;
+    text-align: center;
+}
+#tribute-link{
+text-decoration: none;
+color:black;
+
+}
+.divider{
+    border-bottom: 5px solid #1f1318;
+    margin:2px auto;
+
+}

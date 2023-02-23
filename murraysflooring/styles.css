@@ -1,7 +1,7 @@
-/*colors #F2F2F2 (white), #D9D9D9 (lightgray), #BFBFBF(gray), #9B9B9B, #777777*/
-/*  { 
-  border: 2px solid red;
-}*/
+/*#Primary color: Dark blue (#1F1E2E) - conveys professionalism, trust, and sophistication.
+Secondary color: Light gray (#D6D6D6) - provides a neutral background color that complements the primary color.
+Accent color: Orange (#FFA500) - adds a pop of color and energy to the website, and also complements the blue primary color.
+*/
 * {
   font-family: "Rockwell", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
@@ -9,18 +9,18 @@
 }
 
 html {
-  background-color: #795548;
+  background-color: #D6D6D6;
 }
 
 body {
-  width: 100%;
+
   margin: 0 auto;
   padding: 0 50px;
   max-width: 100%;
 }
 
 header {
-  background-color: #BCAAA4;
+  background-color: #1F1E2E;
   width: 100%;
   margin: 0 auto;
   max-width: 100%;
@@ -28,20 +28,22 @@ header {
 
 h1 {
   text-align: center;
-
+  font-size: 2rem;
 }
 
 .container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .logo {
   padding: 15px;
-  width: 29%;
+  width: 28%;
   height: auto;
   max-width: 100%;
 }
@@ -51,7 +53,7 @@ h1 {
   text-align: center;
   margin: auto;
   font-size: 2rem;
-  width: 69%;
+  width: 68%;
   height: auto;
   max-width: 100%;
 }
@@ -76,7 +78,7 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   padding: 10px 20px;
-  background-color: #A1887F;
+  background-color: #FFA500;
   color: #fff;
 }
 
@@ -99,50 +101,51 @@ nav a {
   letter-spacing: 1px;
 }
 
-figure{
-  width:100%;
-  
-}
-figure img {
-  width: 80%;
+.hero {
+  margin: 0 auto;
   height: auto;
-  margin: auto;
-  
- 
+
 }
+
+figure img {
+  display: block;
+  width: 80%;
+  max-width: 100%;
+  max-height: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  border: 25px solid rgba(180, 152, 110, 0.75);
+  ;
+}
+
 figcaption {
   font-weight: 800;
   position: absolute;
-  bottom: 50px;
-  left:5px;
-  color:antiquewhite;
-  font-size:2rem;
-
+  color: antiquewhite;
+  font-size: 2.5rem;
+  max-width: max-content;
+  bottom: -25%;
+  left: 20%;
 }
 
-.products h4 {
-  text-align: center;
-  margin-top: 0;
-
-  font-size: 1.3rem;
-}
-
-.product-container {
+.product{
+  width: 350px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 25px;
-  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.product img {
-  width: 350px;
-  height: auto;
-}
-
-button {
-  background-color: #A1887F;
+.product img{
   width: 100%;
+  height: auto;
+
+}
+button {
+  background-color: #FFA500;
+
   padding: 10px;
 
 }
@@ -161,7 +164,6 @@ button a {
 .showroom img {
   width: 350px;
   height: auto;
-
   margin: 0 auto;
 }
 
@@ -171,7 +173,7 @@ button a {
 
 footer {
   background-color: #BCAAA4;
-  
+
   margin-top: 20px;
 }
 
@@ -181,20 +183,6 @@ h2 {
   text-align: left;
 
 }
-
-.product-container {
-  background-color: #A1887F;
-  padding: 10px;
-  margin: 0 auto;
-
-}
-
-.product-container img {
-  width: 200px;
-  height: auto;
-  margin: auto;
-}
-
 .ba {
   background-color: #BCAAA4;
   padding: 20px;
