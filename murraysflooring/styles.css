@@ -29,6 +29,7 @@ header {
 h1 {
   text-align: center;
   font-size: 2rem;
+
 }
 
 .container {
@@ -46,8 +47,8 @@ h1 {
   width: 28%;
   height: auto;
   max-width: 100%;
-}
 
+}
 
 .title {
   text-align: center;
@@ -100,48 +101,32 @@ nav a {
   font-size: 1.5rem;
   letter-spacing: 1px;
 }
-
-.hero {
+figure{
   margin: 0 auto;
-  height: auto;
+}
+figure img{
+  width: 100%;
+
 
 }
-
-figure img {
-  display: block;
-  width: 80%;
-  max-width: 100%;
-  max-height: fit-content;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  border: 25px solid rgba(180, 152, 110, 0.75);
-  ;
-}
-
 figcaption {
   font-weight: 800;
-  position: absolute;
+  position: relative;
+  bottom: 100px;
+  left: 5px;
   color: antiquewhite;
-  font-size: 2.5rem;
-  max-width: max-content;
-  bottom: -25%;
-  left: 20%;
+  font-size: 2rem;
+  width: 80%;
 }
-
-.product{
-  width: 350px;
+.products-container{
   display: flex;
-  flex-direction: row;
+  flex: column;
   flex-wrap: wrap;
-  max-width: 100%;
-  margin: 0 auto;
+
 }
-
-.product img{
-  width: 100%;
-  height: auto;
-
+.products img{
+  width: 40%;
+  
 }
 button {
   background-color: #FFA500;
@@ -157,9 +142,7 @@ button a {
 
 }
 
-.contact {
-  text-align: center;
-}
+
 
 .showroom img {
   width: 350px;
