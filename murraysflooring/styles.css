@@ -153,21 +153,7 @@ letter-spacing: 1px;
 font-weight: 600;
 }
 
-/*contact section */
 
-
-
-.contact img {
-  width: 350px;
-  height: auto;
-  margin: 0 auto;
-  border: 10px solid #1F1E2E;
-
-}
-
-button{
-  width: 100%;
-}
 
 /* footer */
 .footer-bottom a {
@@ -240,4 +226,34 @@ footer {
   font-size: 1.5rem;
   width: 50%;
   
+}
+/*contact section */
+
+
+
+.contact img {
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  border: 10px solid #1F1E2E;
+
+}
+
+button{
+  width: 100%;
+}
+.form {
+  background-color: #1F1E2E;
+  color: #F2F2F2;
+  padding: 20px;
+  margin: 20px auto;
+}
+form input{
+  background-color: grey;
+  margin:5px auto;
+
+}
+textarea{
+  background-color: gray;
+
 }
