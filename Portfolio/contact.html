@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Amanda Walker Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+
+    <h1>Hello, I'm Mandy</h1>
+    <p>Aspiring Web Developer</p>
+
+    <div class="favicons-container">
+      <a href="https://github.com/awalker3716">
+        <img class="favicons" src="images/github.favicon.png" alt="Github favicon" /></a>
+      <a href="https://www.linkedin.com/in/amanda-walker-357622240/"><img class="favicons"
+          src="images/linked-favicon.png" alt="LinkedIn Favicon" /></a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card" id="contact">
+      <h2>Contact Me</h2>
+      <form method="POST" action="sendmail.php">
+        <fieldset>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="number">Number:</label>
+          <input type="number" id="number" name="number">
+       
+        </fieldset>
+        <fieldset>
+          <legend>Reason for Contact</legend>
+         
+            <input type="radio" id="general-inquiry" name="reason" value="general-inquiry" required>
+            <label for="general-inquiry">General Inquiry</label>
+            <input type="radio" id="website-inquiry" name="reason" value="website-inquiry">
+            <label for="website-inquiry">Website Inquiry</label>
+            <input type="radio" id="feedback" name="reason" value="feedback">
+            <label for="feedback">Feedback</label>
+            <input type="radio" id="other" name="reason" value="other">
+            <label for="other">Other</label>
+        
+        </fieldset>
+
+        <fieldset>
+          <legend>How did you hear about us?</legend>
+
+          <input type="checkbox" id="social" name="hear" value="social-media">
+          <label for="social">Social Media</label>
+          <!-- if so which one?-->
+          <input type="checkbox" id="referral" name="hear" value="referral">
+          <label for="referral">Referral</label>
+          <input type="checkbox" id="search" name="hear" value="search-engine">
+          <label for="search">Search Engine</label>
+          <input type="checkbox" id="other-hear" name="hear" value="other">
+          <label for="other-hear">Other</label>
+
+        </fieldset>
+        <fieldset>
+          <legend>Method of Contact</legend>
+          <select>
+            <option value="Phone">Phonecall</option>
+            <option value="email">Text</option>
+            <option value="either">Email</option>
+          </select>
+        </fieldset>
+
+        <label class="message" for="message">Message:</label>
+        <textarea id="message" name="message" rows="3" required></textarea>
+
+        <div class="button-container">
+          <input type="submit" value="Send" id="button">
+          <input type="reset" value="Clear" id="button">
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+
+
+<footer class="card">
+  <div class="container">
+    <p><a href="mailto:awalker3716@gmail.com">awalker3716@gmail.com</a><br>
+      <a href="tel:315-854-1235">315-854-1235</a><br>
+      <a href="https://github.com/awalker3716">Github</a><br>
+      <a href="https://www.linkedin.com/in/amanda-walker-357622240/">Linkedin</a>
+    </p>
+    <div>
+      <p><a href="privacy.html">Privacy Policy</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="#">Back to top</a>
+    </div>
+  </div>
+  </p>
+
+  <p class="copyright">Copyright © 2023 Amanda Walker. All rights reserved.</p>
+
+</footer>
+
+</html>

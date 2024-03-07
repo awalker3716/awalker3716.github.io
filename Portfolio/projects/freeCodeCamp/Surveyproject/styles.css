@@ -1,0 +1,122 @@
+/** gray for backgorunnd of questions adb5bd **/
+
+html {
+    background-color: #caf0f8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', Courier, monospace;
+    font-size: 1.95vw;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+
+
+}
+
+header{
+background-color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3vw;
+}
+body{
+    font-size:1rem;
+}
+.navbar{
+    padding: 2vw 4vw;
+    height: 9vh;
+     background-color: #00b4d8;
+}
+.navbar ul {
+   
+    overflow:hidden;
+    display: flex;
+    justify-content: space-between;
+    font-size:2.0vw;
+    
+}
+.nav-item{
+     text-decoration: none;
+    display:inline-block;
+   
+}
+.navbar a {
+    color: #DBE9EE;
+    text-align: center;
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2.3vw;
+    
+}
+
+a:hover {
+    color: #ced4da;
+/** make it get bigger **/
+}
+
+h1 {
+    color: #466995;
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 2vw;
+}
+
+h4 {
+    color: #03045e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+form{
+    width: 80vw;
+   display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+fieldset {
+    margin: 15px auto;
+    border: 1px solid #03045e;
+    border-radius:5px;
+    padding:2vw 4vw;
+    width: 100%;
+}
+.top-row{
+    display: flex;
+    flex-direction: row;
+}
+legend{
+    font-weight:bold;
+}
+.info-item {
+    margin: 5px auto;
+}
+
+.comments label {
+    display: block;
+
+}
+
+.button {
+    width: 100%;
+    color: #DBE9EE;
+    background-color: #466995;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    background-color: #DBE9EE;
+    width: 100%;
+    padding: 10px 0;
+
+}

@@ -1,0 +1,372 @@
+/* #457b61
+  #487456;
+
+#b0bfb4
+
+*/
+
+/* Default styles */
+
+html {
+  font-size: 16px;
+  font-family: Baskervville, Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  background-color: #487456;
+  padding: 20px;
+  width: 100%;
+  color: #b0bfb4;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  display: inline;
+}
+
+header h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 3rem;
+  display: inline;
+  letter-spacing: 0.25rem;
+}
+
+header li {
+  list-style-type: none;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #9BC5A1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 10px;
+  letter-spacing: .1em;
+  font-size: 1.5rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.carousel {
+  padding: 15px;
+}
+
+main {
+  padding: 10px;
+  background-color: #D4DFD6;
+}
+h2{
+  color:#487456;
+}
+/* Media queries */
+
+@media only screen and (max-width: 1024px) {
+  header nav li {
+    margin: 0 5px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header nav li {
+    font-size: 1rem;
+    margin: 0 5px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  footer a {
+    font-size: 0.8rem;
+  }
+
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header nav li {
+    font-size: 0.8rem;
+    margin: 0 3px;
+  }
+
+  footer {
+    padding: 5px;
+  }
+
+  footer a {
+    font-size: 0.6rem;
+  }
+
+  .copyright {
+    font-size: 0.6rem;
+  }
+}
+
+/**employment styles**/
+.employment label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.employment input[type="text"],
+.employment input[type="email"],
+.employment input[type="tel"],
+.employment textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.employment input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.employment textarea {
+  height: 100px;
+}
+
+.employment input[type="submit"] {
+  background-color: #487456 ;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.employment input[type="submit"]:hover {
+  color: #9BC5A1 ;
+}
+
+.employment fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.employment legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.employment ol {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/**contact styles**/
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #487456;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #9BC5A1 ;
+}
+
+.contact-form fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.contact-form legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/**banquet styles**/
+.reservation-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="email"],
+.reservation-form input[type="number"],
+.reservation-form textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.reservation-form textarea {
+  height: 150px;
+}
+
+.reservation-form input[type="submit"] {
+  background-color: #487456;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reservation-form input[type="submit"]:hover {
+  background-color: #9BC5A1;
+}
+
+.reservation-form fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.reservation-form legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/** catering styles**/
+
+/* Add your custom CSS styles here */
+.catering-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.catering-form input[type="text"],
+.catering-form input[type="email"],
+.catering-form input[type="tel"],
+.catering-form textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.catering-form textarea {
+  height: 150px;
+}
+
+.catering-form input[type="submit"] {
+  background-color: #487456;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.catering-form input[type="submit"]:hover {
+  background-color: #9BC5A1;
+}
+
+.catering-form fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.catering-form legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/**footer styles**/
+footer {
+  background-color: #487456;
+  width: 100%;
+  padding: 20px;
+  color: #b0bfb4;
+}
+
+footer a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3a4839;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: center;
+  margin: 5px;
+}

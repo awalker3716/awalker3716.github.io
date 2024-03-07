@@ -1,0 +1,206 @@
+html {
+  background-color: #71827A;
+  color: #d5d9da;
+  box-sizing: border-box;
+  font-size: 1.8vw;
+}
+
+body {
+  width: 80vw;
+  margin: 0 auto;
+  max-width: 1250px;
+
+}
+
+
+/**header **/
+header {
+  display: flex;
+  flex-direction: column;
+  margin: .5vh auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/** making the padding be relative units takes away the border-radius attribute**/
+.header-item {
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.hero-img {
+ width: 25%;
+ height: auto;
+  border-radius: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+
+/** favicons **/
+
+.favicons {
+  object-fit: cover;
+  margin: 0 10px;
+  width: 32px;
+  height: 32px;
+}
+
+/** nav bar**/
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #72402b;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  display: inline;
+  font-size: 2em;
+}
+
+/**index page**/
+.card {
+  background-color: #bdc8c4;
+  color: black;
+  width: 100%;
+  border: 2px solid #72402b;
+  padding: 0 3vw;
+  margin: 4vh auto;
+}
+/** footer**/
+footer a {
+  text-decoration: none;
+  color: #72402b;
+
+}
+
+footer .media-links-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+<<<<<<< HEAD
+/** footer**/
+
+
+=======
+>>>>>>> 5f4ee4549d4fda36875ee2e321822104b761c4fb
+
+/**projects**/
+.projects-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 25px;
+}
+
+.grid-item {
+  place-self: center;
+}
+
+.project-preview {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+figcaption {
+  text-align: center;
+}
+
+/**contact**/
+
+
+fieldset {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+select {
+  width: 75%;
+}
+
+textarea {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.25;
+  resize: vertical;
+}
+
+#button {
+  background-color: #72402b;
+  color: #d5d9da;
+  padding: 15px;
+  margin: 5px 10px;
+  border-radius: 5%;
+  width: 48%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/**CV**/
+.cvheader {
+  text-align: center;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5f4ee4549d4fda36875ee2e321822104b761c4fb
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5f4ee4549d4fda36875ee2e321822104b761c4fb
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+<<<<<<< HEAD
+}
+
+
+=======
+}
+>>>>>>> 5f4ee4549d4fda36875ee2e321822104b761c4fb

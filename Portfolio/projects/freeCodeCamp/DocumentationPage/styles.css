@@ -1,0 +1,36 @@
+html{
+    background-color: #faedcd;
+
+}
+header{
+    background-color: #ccd5ae;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+h1{
+    text-align: center;
+}
+nav {
+    background-color: #d4a373;
+}
+.nav-link{
+    text-decoration: none;
+    color: aliceblue;
+}
+#nav-list{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+}
+nav li {
+    display: inline;
+}
+section{
+    background-color: #f3d898;
+    padding: 20px;
+    margin: 15px 0px;
+}

@@ -1,0 +1,272 @@
+/*#Primary color: Dark blue (#1F1E2E) - conveys professionalism, trust, and sophistication.
+Secondary color: Light gray (#D6D6D6) - provides a neutral background color that complements the primary color.
+Accent color: Orange (#FFA500) - adds a pop of color and energy to the website, and also complements the blue primary color.
+*/
+* {
+  font-family: "Rockwell", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  
+}
+
+html {
+  background-color: #D6D6D6;
+}
+
+body {
+
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 100%;
+}
+
+section {
+  background-color: #F2F2F2;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 4px;
+}
+
+h2{
+
+text-align: center;
+}
+
+
+
+/*header */
+header {
+  background-color: #1F1E2E;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.logo{
+  margin: 20px;
+  width: auto;
+  height: 10rem;
+}
+
+.title {
+  text-align: center;
+  margin: 0 auto;
+  height: 10rem;
+  color: #D6D6D6;
+  font-size: 1.25rem;
+}
+.title p {
+  font-size: 1em;
+  margin-top: -20px;
+}
+
+/* nav bar */
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #FFA500;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+/* hero image */
+
+figure img{
+  width: 100%;
+height: auto;
+max-width: 100%;
+
+
+}
+figcaption {
+  font-weight: 800;
+  position: relative;
+  bottom: 100px;
+  left: 10px;
+  color: rgb(221, 201, 174);
+  font-size: 1.5rem;
+  
+  max-width: 80;
+}
+/*products section */
+
+
+
+.product{
+  display: inline-block;
+  align-self: center;
+
+}
+.products img{
+  
+  border: 10px solid #1F1E2E;
+
+}
+button {
+  background-color: #FFA500;
+
+  padding: 18px;
+margin: 10px auto;
+}
+
+button a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1rem;
+font-family: monospace, Geneva, Tahoma, sans-serif;
+letter-spacing: 1px;
+font-weight: 600;
+}
+
+
+
+/* footer */
+
+
+footer {
+  background-color: #1F1E2E;
+color: #D6D6D6;
+  padding: 20px;
+  
+}
+.footer-bottom a{
+  color: #D6D6D6;
+  text-decoration: none;
+  display: block;
+  
+}
+.company-info{
+  line-height: 1.5em;
+}
+address a {
+  text-decoration: none;
+  color: #D6D6D6;
+}
+
+
+
+
+
+/* css for other pages*/
+
+/* products css */
+
+.ba {
+ 
+  padding: 20px;
+  width: auto;
+  max-width: 100%;
+  display: inline-block;
+
+}
+.product-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.product-container img{
+  height: 20rem;
+  width: auto;
+  border: 10px solid #1F1E2E;
+  margin: 15px;
+}
+
+/*services*/ 
+.trailer{
+  display: flex;
+  display: row;
+  justify-content: center;
+  
+
+}
+.services-container{
+  display: flex;
+
+}
+
+
+.service-img{
+  width: auto;
+  height: 250px;
+  align-self: center;
+}
+
+
+/* about */
+
+.about img {
+  width:auto;
+  height: 350px;
+}
+
+.about p {
+  font-size: 1.5rem;
+  width: 50%;
+  
+}
+/*contact section */
+
+
+
+.contact img {
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  border: 10px solid #1F1E2E;
+
+}
+
+button{
+  width: 100%;
+}
+.form {
+  background-color: #1F1E2E;
+  color: #F2F2F2;
+  padding: 20px;
+  margin: 20px auto;
+}
+form input{
+  background-color: grey;
+  margin:5px auto;
+
+}
+textarea{
+  background-color: gray;
+
+}
