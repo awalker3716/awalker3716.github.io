@@ -1,7 +1,12 @@
 /** gray for backgorunnd of questions adb5bd **/
+/** brown 78290f
+orange ff7d00
+tan ffecd1
+blue 15616d
+navy 001524 **/
 
 html {
-    background-color: #caf0f8;
+    background-color: #ffecd1;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,50 +18,57 @@ html {
 
 }
 
-header{
-background-color: aliceblue;
+header {
+    background-color: #ff7d00;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 3vw;
 }
-body{
-    font-size:1rem;
+
+body {
+    font-size: 1rem;
+    width: auto;
 }
-.navbar{
+
+.navbar {
     padding: 2vw 4vw;
     height: 9vh;
-     background-color: #00b4d8;
+    background-color: #15616d;
 }
+
 .navbar ul {
-   
-    overflow:hidden;
+
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
-    font-size:2.0vw;
-    
+    font-size: 2.0vw;
+
 }
-.nav-item{
-     text-decoration: none;
-    display:inline-block;
-   
+
+.nav-item {
+    text-decoration: none;
+    display: inline-block;
+
 }
+
 .navbar a {
-    color: #DBE9EE;
+    color: #ffecd1;
     text-align: center;
-    
+
     text-transform: uppercase;
     text-decoration: none;
     font-size: 2.3vw;
-    
+
 }
 
 a:hover {
-    color: #ced4da;
-/** make it get bigger **/
+    color: #ff7d00;
+    font-weight: bold;
+    /** make it get bigger **/
 }
 
 h1 {
-    color: #466995;
+    color: #001524;
     font-size: 3rem;
     font-weight: 300;
     text-transform: uppercase;
@@ -64,58 +76,55 @@ h1 {
     padding: 0 2vw;
 }
 
-h4 {
-    color: #03045e;
+p {
+    color: #001524;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-
-form{
-    width: 80vw;
-   display:flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
 
 }
 
-fieldset {
-    margin: 15px auto;
-    border: 1px solid #03045e;
-    border-radius:5px;
-    padding:2vw 4vw;
-    width: 100%;
+form {
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-.top-row{
+
+.top-row {
     display: flex;
     flex-direction: row;
-}
-legend{
-    font-weight:bold;
-}
-.info-item {
-    margin: 5px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 
+.top-row > fieldset {
+    width: 45%;
+}
+
+legend {
+    font-weight: bold;
+}
+.form-main fieldset{
+    width:90vw;
+}
 .comments label {
     display: block;
 
 }
 
-.button {
-    width: 100%;
-    color: #DBE9EE;
-    background-color: #466995;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+#submit {
+    width: 80%;
+    color: #ff7d00;
+    background-color: #001524;
+    margin: 10vh auto;
 }
 
 footer {
     position: relative;
     top: 60px;
     text-align: center;
-    background-color: #DBE9EE;
+    background-color: #ff7d00;
     width: 100%;
     padding: 10px 0;
 

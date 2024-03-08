@@ -21,38 +21,36 @@
     </nav>
 
     <h1 id="title"><strong>Welcome</strong> to Murray's Flooring Survey</h1>
-    <h4 id="description">We are looking forward to hearing your opinion on our service!</h4>
+    <p id="description">We are looking forward to hearing your opinion on our service!</p>
   </header>
   <main>
     <form id="survey-form">
       <div class="top-row">
         <fieldset class="info">
           <legend>Personal Information</legend>
-          <div class="info-item">
+        
             <label for="name" id="name-label">Name:</label>
-            <input id="name" type="text" name-="name" placeholder="enter your name" required> <br>
-          </div>
-          <div class="info-item">
+            <input id="name" type="text" name-="name" placeholder="Full Name Please" required> <br>
+     
             <label for="email" id="email-label">Email:</label>
             <input id="email" type="email" name="email" placeholder="enter your email" required /><br>
-          </div>
-          <div class="info-item">
-            <label for="number" id="number-label">Age(optional)</label>
-            <input id="number" type="number" name="age" placeholder="Age" min="18" max="99" /> <br>
-          </div>
-
-        </fieldset>
       
-      <fieldset class="question">
-        <legend id="q1">Question One</legend>
-        <label for="purchased">Have you ever purchased flooring <br>products or services from our business?</label><br>
-        <input type="radio" id="purchased-yes" name="purchased" value="yes">
-        <label for="purchased-yes">Yes</label><br>
-        <input type="radio" id="purchased-no" name="purchased" value="no">
-        <label for="purchased-no">No</label><br><br>
-      </fieldset>
-</div>
+            <label for="number" id="number-label">Phone Number<em>(optional) </em></label>
+            <input id="number" type="number" name="number" placeholder="555-555-5555" /> <br>
+        
+        </fieldset>
 
+        <fieldset class="question">
+          <legend id="q1">Question One</legend>
+          <label for="purchased">Have you ever purchased flooring products or services from our
+            business?</label><br>
+          <input type="radio" id="purchased-yes" name="purchased" value="yes">
+          <label for="purchased-yes">Yes</label>
+          <input type="radio" id="purchased-no" name="purchased" value="no">
+          <label for="purchased-no">No</label>
+        </fieldset>
+      </div>
+<div class="form-main">
       <fieldset class="question">
         <legend id="q2">Question Two</legend>
         <label for="hear">How did you hear about our business?</label><br>
@@ -97,7 +95,7 @@
       <fieldset class="comments">
         <label for="message">Any Additional Comments:</label>
         <textarea id="message" name="message"></textarea>
-      </fieldset>
+      </fieldset></div>
       <input id="submit" class="button" type="submit" value="Submit">
     </form>
   </main>
