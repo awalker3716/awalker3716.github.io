@@ -1,0 +1,112 @@
+/** color scheme 
+tan eae2b7
+yellowish fcbf49
+orange f77f00
+red d62828
+navy 003049
+
+**/
+
+html {
+    box-sizing: border-box;
+    font-size: 2vw;
+    background-color: #eae2b7;
+
+
+}
+
+/** tenative repsonsive design **/
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 2vw;
+    }
+}
+
+body {
+    margin: 0;
+    margin-bottom: 10vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.hero {
+    background-color: #003049;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero img {
+    width: 33vw;
+}
+
+.hero p {
+    color: #f77f00;
+    font-size:4vw ;
+}
+
+.logo {
+    width: 9vw;
+}
+
+/** nav bar (fixed at bottom of screen)**/
+nav {
+    background-color: #003049;
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    padding: 3vh 2vw;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #f77f00;
+    padding: 2.75vh;
+    font-weight: bold;
+    letter-spacing: 6%;
+}
