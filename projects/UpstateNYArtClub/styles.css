@@ -1,0 +1,40 @@
+/** Color scheme : dark green #283618, sage green #606C38,
+ brown #BC6C25, tan #DDA15E, white-tan #FEFAE0
+**/
+
+html {
+    background-color: #FEFAE0;
+    color: #BC6C25;
+ box-sizing: border-box;
+ width: 100%;
+ font-size: 100%;
+}
+
+header {
+    text-align: center;
+    background-color: #283618;
+    color: #FEFAE0;
+    width: 100%;
+}
+nav {
+    background-color: #283618;
+    color: #FEFAE0;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+section {
+    background-color: #DDA15E;
+}
+table, tr {
+    border: 2px solid #283618;
+}
+td {
+    border: 1px solid #283618;
+}
