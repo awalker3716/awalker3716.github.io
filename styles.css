@@ -132,6 +132,6 @@ nav a {
 
 }
 .grid-item img{
-    width: 90%; 
-    height: auto;
+    align-items: center;
+    width: 75%;
 }

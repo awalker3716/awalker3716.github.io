@@ -29,8 +29,21 @@ nav li{
     display: inline-block;
     
 }
+main{
+    display: flex;
+    flex-direction: column;  
+    width: 100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
 section {
     background-color: #DDA15E;
+    width: 100%;
+    padding: 2%;
+    margin: 2% 1%;
 }
 table, tr {
     border: 2px solid #283618;
