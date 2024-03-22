@@ -1,4 +1,5 @@
 /** color scheme 
+
 tan eae2b7
 yellowish fcbf49
 orange f77f00
@@ -54,45 +55,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-
-.hero {
-    background-color: #003049;
-    color: #f77f00;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.hero img {
-    width: 25vw;
-}
-
-.hero .mission {
-    font-size:3.5vw ;
-    text-align: center;
-    font-style: italic;
-    width: 25vh;
-}
-.header-contact {
-    text-align: center;
-    
-}
-.hero h2 {
-    width: 25vw;
-
-}
-.header-contact a {
-    text-decoration: none;
-    color: #f77f00;
-
-}
-.header-contact a:hover{
-    color: #d62828 ;
-}
-.logo {
-    width: 3vw;
-}
-
 /** nav bar (fixed at bottom of screen)**/
 nav {
     background-color: #003049;
@@ -124,7 +86,90 @@ nav a {
     letter-spacing: 6%;
 }
 
-/**portfolio **/ 
+.hero {
+    background-color: #003049;
+    color: #f77f00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.hero img {
+    width: 25vw;
+}
+
+.hero .mission {
+    font-size:3.5vw ;
+    text-align: center;
+    font-style: italic;
+    width: 25vh;
+}
+.header-contact {
+    text-align: center;
+    
+}
+.hero h2 {
+    width: 25vw;
+
+}
+.header-contact a {
+    text-decoration: none;
+    color: #f77f00;
+
+}
+.header-contact a:hover{
+    color: #d62828 ;
+}
+.logo {
+    width: 3vw;
+}
+section {
+    background-color: #fcbf49;
+    padding: 2% 3%;
+    margin: 2% 3%;
+}
+/** call to action **/
+.cta {
+text-align: center;
+
+}
+.cta button{
+    background-color: #d62828;
+    padding: 2% 1%;
+    font-weight: 800;
+    border-radius: 11px;
+}
+/** about portion **/ 
+.about {
+    display: flex;
+    flex-direction: row;
+
+}
+.about img{
+    width: 25%;
+}
+/**services section **/ 
+.services {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.services fieldset{
+    width:45%;
+}
+.services img{
+     width: 15%;
+
+}
+/**socials/testimonials**/ 
+
+.favicon{
+    width: 7%;
+}
+/**portfolio page **/ 
 .projects-grid{
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;

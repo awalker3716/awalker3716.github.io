@@ -10,10 +10,25 @@
 
 <body>
     <header>
-<!--insert logo-->
-        <h1>Upstate NY Art Club</h1>
-        <p>Connecting local artists to encourage collarboration and business</p>
-        <p>Based in Upstate NY</p>
+        <div class="header-item">
+            <a href="index.html"><img src="media/UpstateNYlogo.png"></a>
+        </div>
+
+        <div class="header-item">
+            <h1>Upstate NY Art Club</h1>
+            <p>Connecting local artists to encourage collarboration and business</p>
+            <p>Based in Upstate NY</p>
+        </div>
+        <div class="header-item">
+            <nav>
+                <ul>
+                    <li><a href="about.html">About</a> <!--include members--></li>
+                    <li><a href="gallery.html">Gallery</a> <!--update to mention studio--></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <section class="welcome">
@@ -28,8 +43,8 @@
             <p></p>
 
         </section>
-        <div class="row">
-            <section>
+        <div class="flex-row">
+            <section class="events">
                 <h2>Upcoming Events</h2>
                 <table>
                     <thead>
@@ -77,14 +92,7 @@
         </div>
     </main>
     <footer>
-        <nav>
-            <ul>
-                <li>About Us <!--include members--></li>
-                <li>Gallery <!--update to mention studio--></li>
-                <li>Shop</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+
     </footer>
 </body>
 
