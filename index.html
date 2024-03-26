@@ -10,15 +10,6 @@
 
 <body>
   <header>
-    <div class="hero">
-      <h1><a href="index.html"><img src="images/W.png"></a></h1>
-      <p class="mission">Empowering businesses for digital success</p>
-      <div class="header-contact">
-        <h2>Shoot me a message whenever and I'll get back to you as soon as possible!</h3>
-          <p><a href="mailto:awalker3716@gmail.com">Email: awalker3716@gmail.com</a></p>
-          <p><a href="tel:315-854-1235">Text/Call: (315)854-1235</a></p>
-      </div>
-    </div> <!--nav bar -->
     <nav>
       <ul>
         <li><a href="index.html"><img src="images/W.png" class="logo"></a></li>
@@ -29,10 +20,60 @@
       </ul>
     </nav>
 
+    <div class="hero">
+      <h1><a href="index.html"><img src="images/W.png"></a></h1>
+      <p class="mission">Empowering businesses for digital success</p>
+      <div class="header-contact">
+        <h2>Shoot me a message whenever and I'll get back to you as soon as possible!</h3>
+          <p><a href="mailto:awalker3716@gmail.com">Email: awalker3716@gmail.com</a></p>
+          <p><a href="tel:315-854-1235">Text/Call: (315)854-1235</a></p>
+      </div>
+    </div>
+
+
   </header>
   <main>
-    <section class="cta">
+    <section class="slideshow-container"> 
       <h1>Are you ready to elevate your online presence? </h1>
+      <!--javascript-->
+     
+        <div class="mySlides fade">
+            <img src="images/github.favicon.png">
+           <div class="slideshow-text">1/5 Simple Website Description</div> 
+          
+        </div>
+        <div class="mySlides fade">
+          <figure>
+            <img src="images/linked-favicon.png">
+            <div class="slideshow-text">2/5 Simple Website Description</div>
+        </div>
+        <div class="mySlides fade">
+          
+            <img src="images/github.favicon.png">
+            <div class="slideshow-text">3/5 Simple Website Description</div>
+        </div>
+        <div class="mySlides fade">
+        
+            <img src="images/linked-favicon.png">
+            <div class="slideshow-text">4/5 Simple Website Description</div>
+        </div>
+        <div class="mySlides fade">
+          
+            <img src="images/github.favicon.png">
+            <div class="slideshow-text">5/5 Simple Website Description</div>
+        </div>
+        <!--next and previous buttons-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
       <p> Get in touch with us today!</p>
       <a href="contact.html"><button>CONTACT US</button></a>
     </section>
@@ -57,45 +98,47 @@
       </div>
     </section>
     <section class="services">
-        <fieldset>
-          <legend>Website Design and Development</legend>
-          <figure>
-            <img src="https://placehold.co/600x400">
-            <figcaption>User-Friendly Visually Appealing Website that reflects your brands and values!</figcaption>
-          </figure>
-        </fieldset>
-     <fieldset>
-      <legend>Database and Information Management</legend>
-        <figure> 
+      <fieldset>
+        <legend>Website Design and Development</legend>
+        <figure>
           <img src="https://placehold.co/600x400">
-          <figcaption>Streamline your operations with our customized database solutions. Client Management to inventory tracking,
-          we've got it covered</figcaption>
+          <figcaption>User-Friendly Visually Appealing Website that reflects your brands and values!</figcaption>
         </figure>
-        </fieldset>
-        <fieldset>
-          <legend>E-Store and Payment Gateway</legend>
-            <figure> 
-              <img src="https://placehold.co/600x400">
-              <figcaption>Sell your products online and be assurred that the payment will be secure</figcaption>
-            </figure>
-            </fieldset>  <fieldset>
-              <legend>POS System</legend>
-                <figure> 
-                  <img src="https://placehold.co/600x400">
-                  <figcaption>Point of Sale software</figcaption>
-                </figure>
-                </fieldset>
+      </fieldset>
+      <fieldset>
+        <legend>Database and Information Management</legend>
+        <figure>
+          <img src="https://placehold.co/600x400">
+          <figcaption>Streamline your operations with our customized database solutions. Client Management to inventory
+            tracking,
+            we've got it covered</figcaption>
+        </figure>
+      </fieldset>
+      <fieldset>
+        <legend>E-Store and Payment Gateway</legend>
+        <figure>
+          <img src="https://placehold.co/600x400">
+          <figcaption>Sell your products online and be assurred that the payment will be secure</figcaption>
+        </figure>
+      </fieldset>
+      <fieldset>
+        <legend>POS System</legend>
+        <figure>
+          <img src="https://placehold.co/600x400">
+          <figcaption>Point of Sale software</figcaption>
+        </figure>
+      </fieldset>
     </section>
     <section class="social">
       <h3>Walker Web Design has made many projects, which are linked on the portfolio page</h3>
-      
+
       <a href="https://github.com/awalker3716">
         <img class="favicon" src="images/github.favicon.png" alt="Github favicon" /></a>
       <a href="https://www.linkedin.com/in/amanda-walker-357622240/"><img class="favicon"
           src="images/linked-favicon.png" alt="LinkedIn Favicon" /></a>
-    
+
     </section>
-    
+
 
     </section>
   </main>
@@ -103,6 +146,7 @@
 
     <!--contact infos, address, links to social medias, privacy policy, copyright -->
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,43 +1,75 @@
 /**color scheme 
-#264653
-#2a9d8f
-#e9c46a
-#f4a261
-#e76f51
+blues (lightest to darkest)
+#caf0f8
+#ade8f4
+#90e0ef
+#00b4d8
+#0096c7
+
 **/
 html {
     box-sizing: border-box;
-    font-size: 18px;
-    background-color: #e9c46a;
-    letter-spacing: 0.125vw;
+    font-size: 100%;
+    width: 100%;
+    background-color: #90e0ef;
+    letter-spacing: 0.125rem;
+    padding: 0;
+    margin: 0 auto;
+    color: #0d4152;
 }
-nav{
-    background-color: #2a9d8f;
-    padding: 3vh 3vw;
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+
+    
+}
+header{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+nav {
+    background-color: #0096c7;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2% 3%;
+
 }
 
 nav a {
     text-decoration: none;
-  
+
     display: block;
-    padding: 0 auto;
+
     text-transform: uppercase;
-   
 }
-nav a:hover{
-    color: #e76f51;
-    padding: 0.5vh 0.5vw;
-    
+
+nav a:hover {
+    color: #caf0f8;
+    padding: 0.25rem 0rem;
+
 }
+
 nav ul {
-    display:flex;
+    display: flex;
     justify-content: space-between;
- 
+
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 
 }
-nav li{
+
+nav li {
     display: inline-block;
+    text-align: center;
+}
+/** hero **/ 
+.hero{
+    text-align: center;
+    color: #0d4152;
+}
+.hero-img{
+    width: 90%;
 }

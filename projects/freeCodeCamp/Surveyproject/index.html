@@ -11,6 +11,7 @@
 
 <body>
   <header>
+    <!--nav -->
     <nav class="navbar">
       <ul>
         <li class="nav-item"><a href="#q1">Question 1</a></li>
@@ -19,25 +20,29 @@
         <li class="nav-item"><a href="#q4">Question 4</a></li>
       </ul>
     </nav>
-
-    <h1 id="title"><strong>Welcome</strong> to Murray's Flooring Survey</h1>
-    <p id="description">We are looking forward to hearing your opinion on our service!</p>
+    <!--hero -->
+    <div class="hero">
+      <h1 id="title"><strong>Welcome</strong> to Murray's Flooring Survey</h1>
+      <p>We are looking forward to hearing your opinion on our service!</p>
+    </div>
   </header>
+ 
   <main>
+    <!--survey form-->
     <form id="survey-form">
-      <div class="top-row">
+      
         <fieldset class="info">
           <legend>Personal Information</legend>
-        
-            <label for="name" id="name-label">Name:</label>
-            <input id="name" type="text" name-="name" placeholder="Full Name Please" required> <br>
-     
-            <label for="email" id="email-label">Email:</label>
-            <input id="email" type="email" name="email" placeholder="enter your email" required /><br>
-      
-            <label for="number" id="number-label">Phone Number<em>(optional) </em></label>
-            <input id="number" type="number" name="number" placeholder="555-555-5555" /> <br>
-        
+
+          <label for="name" id="name-label">Name:</label>
+          <input id="name" type="text" name-="name" placeholder="Full Name Please" required> <br>
+
+          <label for="email" id="email-label">Email:</label>
+          <input id="email" type="email" name="email" placeholder="enter your email" required /><br>
+
+          <label for="number" id="number-label">Phone Number<em>(optional) </em></label>
+          <input id="number" type="number" name="number" placeholder="555-555-5555" /> <br>
+
         </fieldset>
 
         <fieldset class="question">
@@ -49,53 +54,54 @@
           <input type="radio" id="purchased-no" name="purchased" value="no">
           <label for="purchased-no">No</label>
         </fieldset>
-      </div>
-<div class="form-main">
-      <fieldset class="question">
-        <legend id="q2">Question Two</legend>
-        <label for="hear">How did you hear about our business?</label><br>
-        <select id="dropdown" name="dropdown">
-          <option value="search">Online search</option>
-          <option value="referral">Friend or family member referral</option>
-          <option value="advertisement">Advertisement</option>
-          <option value="walk-by">Walked by the store/signage</option>
-          <option value="other">Other (please specify)</option>
-        </select><br><br>
-      </fieldset>
-      <fieldset class="question">
-        <legend id="q3">Question Three</legend>
-        <label for="type">What type of flooring products have you purchased from our business in the past?</label><br>
-        <input type="checkbox" id="hardwood" name="type" value="hardwood">
-        <label for="hardwood">Hardwood flooring</label><br>
+     
+      
+        <fieldset class="question">
+          <legend id="q2">Question Two</legend>
+          <label for="hear">How did you hear about our business?</label><br>
+          <select id="dropdown" name="dropdown">
+            <option value="search">Online search</option>
+            <option value="referral">Friend or family member referral</option>
+            <option value="advertisement">Advertisement</option>
+            <option value="walk-by">Walked by the store/signage</option>
+            <option value="other">Other (please specify)</option>
+          </select><br><br>
+        </fieldset>
+        <fieldset class="question">
+          <legend id="q3">Question Three</legend>
+          <label for="type">What type of flooring products have you purchased from our business in the past?</label><br>
+          <input type="checkbox" id="hardwood" name="type" value="hardwood">
+          <label for="hardwood">Hardwood flooring</label><br>
 
-        <input type="checkbox" id="tile" name="type" value="tile">
-        <label for="tile">Tile flooring</label><br>
-        <input type="checkbox" id="carpet" name="type" value="carpet">
-        <label for="carpet">Carpeting</label><br>
-        <input type="checkbox" id="vinyl" name="type" value="vinyl">
-        <label for="vinyl">Vinyl flooring</label><br>
-        <input type="checkbox" id="other" name="type" value="other">
-        <label for="other">Other (please specify)</label><br><br>
-      </fieldset>
-      <fieldset class="question">
-        <legend id="q4">Question Four</legend>
-        <label for="quality">On a scale of 1-5, how satisfied were you with the quality of our flooring
-          products?</label><br>
-        <input type="radio" id="quality-1" name="quality" value="1">
-        <label for="quality-1">1 (Not at all satisfied)</label><br>
-        <input type="radio" id="quality-2" name="quality" value="2">
-        <label for="quality-2">2</label><br>
-        <input type="radio" id="quality-3" name="quality" value="3">
-        <label for="quality-2">3</label><br>
-        <input type="radio" id="quality-4" name="quality" value="4">
-        <label for="quality-2">4</label><br>
-        <input type="radio" id="quality-5" name="quality" value="5">
-        <label for="quality-2">5</label><br>
-      </fieldset>
-      <fieldset class="comments">
-        <label for="message">Any Additional Comments:</label>
-        <textarea id="message" name="message"></textarea>
-      </fieldset></div>
+          <input type="checkbox" id="tile" name="type" value="tile">
+          <label for="tile">Tile flooring</label><br>
+          <input type="checkbox" id="carpet" name="type" value="carpet">
+          <label for="carpet">Carpeting</label><br>
+          <input type="checkbox" id="vinyl" name="type" value="vinyl">
+          <label for="vinyl">Vinyl flooring</label><br>
+          <input type="checkbox" id="other" name="type" value="other">
+          <label for="other">Other (please specify)</label><br><br>
+        </fieldset>
+        <fieldset class="question">
+          <legend id="q4">Question Four</legend>
+          <label for="quality">On a scale of 1-5, how satisfied were you with the quality of our flooring
+            products?</label><br>
+          <input type="radio" id="quality-1" name="quality" value="1">
+          <label for="quality-1">1 (Not at all satisfied)</label><br>
+          <input type="radio" id="quality-2" name="quality" value="2">
+          <label for="quality-2">2</label><br>
+          <input type="radio" id="quality-3" name="quality" value="3">
+          <label for="quality-2">3</label><br>
+          <input type="radio" id="quality-4" name="quality" value="4">
+          <label for="quality-2">4</label><br>
+          <input type="radio" id="quality-5" name="quality" value="5">
+          <label for="quality-2">5</label><br>
+        </fieldset>
+        <fieldset class="comments">
+          <label for="message">Any Additional Comments:</label>
+          <textarea id="message" name="message"></textarea>
+        </fieldset>
+      s
       <input id="submit" class="button" type="submit" value="Submit">
     </form>
   </main>
