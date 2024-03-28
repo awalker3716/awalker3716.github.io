@@ -18,17 +18,25 @@ html {
     color: #0d4152;
 }
 
+img {
+    width: 100%;
+
+}
+
 body {
     margin: 0 auto;
     padding: 0;
-    max-width: 1200px;
+    max-width: 1400px;
 
-    
+
 }
-header{
+
+header {
     margin: 0 auto;
     padding: 0 auto;
 }
+
+/**nav **/
 nav {
     background-color: #0096c7;
     max-width: 100%;
@@ -65,11 +73,45 @@ nav li {
     display: inline-block;
     text-align: center;
 }
-/** hero **/ 
-.hero{
+
+section {
+    background-color:#ade8f4;
+    margin:1rem .75rem;
+    padding: 1rem 1rem;
+  
+}
+
+
+/** hero **/
+.hero {
     text-align: center;
     color: #0d4152;
 }
-.hero-img{
-    width: 90%;
+
+.hero-img {
+    height: 30rem;
+    width: auto;
+}
+
+/** flex row **/
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.flex-item {
+    width: 45%;
+
+    margin: 0 0.75rem;
+}
+.item-container figure{
+
+text-align: center;
+
+}
+.item-container img {
+    width: 8rem;
+    height: 12rem;
 }
